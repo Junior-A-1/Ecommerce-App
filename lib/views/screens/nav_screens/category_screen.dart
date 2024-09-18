@@ -90,7 +90,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           title: Text(
                             category.name,
                             style: GoogleFonts.quicksand(
-                              fontSize: 12,
+                              fontSize: 13,
                               fontWeight: FontWeight.bold,
                               color: _selectedCategory == category
                                   ? const Color.fromARGB(255, 1, 42, 75)
